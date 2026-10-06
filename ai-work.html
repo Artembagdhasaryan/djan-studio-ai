@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work — DJAN STUDIO AI</title>
+<meta name="description" content="Portfolio of AI films, series, animation and commercials created by DJAN STUDIO AI in Yerevan, Armenia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">DJAN STUDIO<span> AI</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="ai-work.html" class="active">Work</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#process">Process</a>
+      <a href="index.html#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary btn-sm">Start a project</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="wrap hero" style="gap:20px;padding-bottom:32px">
+    <div class="mono acc">Portfolio</div>
+    <h1 class="big">Work</h1>
+    <p class="lead">Films, series, animation and commercials created with generative AI by the DJAN STUDIO AI team in Yerevan.</p>
+  </section>
+
+  <section class="wrap" style="padding-bottom:48px">
+    <div class="featured">
+      <!-- FEATURED TRAILER: replace the placeholder with your embed, e.g.
+           <iframe src="https://www.youtube.com/embed/XXXX" allow="fullscreen" allowfullscreen></iframe> -->
+      <div class="media" style="aspect-ratio:16 / 9;border-radius:16px">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+          <div class="play" style="width:72px;height:72px">▶</div>
+          <span class="ph">[FEATURED TRAILER]</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:8px">
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div class="mono acc" style="font-size:12px">Featured · Original series</div>
+          <h2>David of Sassoun</h2>
+          <p class="muted" style="margin:0;font-size:17px;line-height:1.55">An AI-generated series based on the Armenian national epic.</p>
+        </div>
+        <dl>
+          <div><dt>Year</dt><dd>2026</dd></div>
+          <div><dt>Format</dt><dd>Series · 16:9</dd></div>
+          <div><dt>Runtime</dt><dd>[EPISODES × MIN]</dd></div>
+          <div><dt>Languages</dt><dd>[EN / HY / RU]</dd></div>
+        </dl>
+        <button type="button" class="btn btn-light card" data-i="0" style="flex-direction:row;padding:0 28px">Watch trailer</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap sec">
+    <div style="display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;margin-bottom:28px">
+      <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+      <div class="mono dim" id="count" style="text-transform:none;letter-spacing:0"></div>
+    </div>
+    <div class="grid-port" id="portfolio-grid"></div>
+  </section>
+</main>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="hero-row">
+      <h2>Want something like this?</h2>
+      <a href="mailto:armeniafilmservice@gmail.com" class="btn">Start a project</a>
+    </div>
+    <div class="cgrid">
+      <div><div class="mono">Email</div><a href="mailto:armeniafilmservice@gmail.com">armeniafilmservice@gmail.com</a></div>
+      <div><div class="mono">Phone / WhatsApp</div><a href="tel:+37493093458">+374 93 093 458</a></div>
+      <div><div class="mono">Studio</div>18/1 Vardanants St, Yerevan, Armenia</div>
+      <div><div class="mono">Follow</div><a href="https://www.instagram.com/aistudio.first/" target="_blank" rel="noopener">Instagram · @aistudio.first</a></div>
+    </div>
+    <div class="foot"><span>© <span id="year">2026</span> DJAN STUDIO AI</span><span>AI films · Series · Animation · Commercials</span></div>
+  </div>
+</section>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Project">
+  <div class="modal-box">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:16px">
+      <div class="mono acc m-cat" style="font-size:12px"></div>
+      <button class="close" aria-label="Close">×</button>
+    </div>
+    <div class="media modal-media" style="aspect-ratio:16 / 9;border-radius:12px"></div>
+    <div>
+      <h2 class="m-title" style="font-size:36px"></h2>
+      <p class="m-desc muted" style="font-size:17px;line-height:1.5"></p>
+      <div class="m-meta mono dim" style="font-size:12px;text-transform:none;letter-spacing:0"></div>
+    </div>
+  </div>
+</div>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
