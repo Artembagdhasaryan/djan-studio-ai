@@ -230,3 +230,10 @@ h2{font-size:clamp(28px,2.6vw,36px);font-weight:600;letter-spacing:-.01em;line-h
 .shorts.jump{grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
 @media (max-width:1000px){.shorts.jump{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:760px){.shorts.jump{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.shorts.jump .short-video{max-width:none}}
+
+/* Saroyan series: vertical 3:4 */
+#saroyan .film-video{aspect-ratio:3 / 4}
+#saroyan .films{grid-template-columns:repeat(3,minmax(0,340px));gap:40px 32px;justify-content:start}
+@media (max-width:1180px){#saroyan .films{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 20px}}
+@media (max-width:900px){#saroyan .films{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){#saroyan .films{grid-template-columns:1fr}#saroyan .film-video{max-width:420px;width:100%}}
