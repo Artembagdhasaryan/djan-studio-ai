@@ -156,3 +156,33 @@
     });
   });
 })();
+
+// Vertical Google Drive videos: open in a large lightbox (Drive's player breaks in narrow cards)
+(function () {
+  var box = document.createElement('div');
+  box.className = 'vbox';
+  box.setAttribute('role', 'dialog');
+  box.setAttribute('aria-modal', 'true');
+  box.innerHTML = '<div class="vbox-inner"><button type="button" class="close vbox-close" aria-label="Close">×</button><div class="vbox-frame"></div></div>';
+  document.body.appendChild(box);
+  var frame = box.querySelector('.vbox-frame');
+  function close() { box.classList.remove('open'); frame.innerHTML = ''; document.body.style.overflow = ''; }
+  box.addEventListener('click', function (e) { if (e.target === box) close(); });
+  box.querySelector('.vbox-close').addEventListener('click', close);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && box.classList.contains('open')) close(); });
+
+  document.querySelectorAll('.short-video .yt[data-src]').forEach(function (b) {
+    b.addEventListener('click', function (e) {
+      e.stopImmediatePropagation();
+      var f = document.createElement('iframe');
+      f.src = b.getAttribute('data-src');
+      f.title = b.getAttribute('aria-label') || 'Video';
+      f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
+      f.allowFullscreen = true;
+      frame.innerHTML = '';
+      frame.appendChild(f);
+      box.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }, true);
+  });
+})();
