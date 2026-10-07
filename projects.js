@@ -20,21 +20,21 @@ const PROJECTS = [
     category: "series", format: "9:16", year: "2026", client: "Original", tools: "Generative AI",
     description: "Mafia romance. Shakespeare's classic reborn among rival Italian crime families.",
     poster: "https://i.ytimg.com/vi/Y0DToFuEnzE/hqdefault.jpg",
-    video: "https://www.youtube.com/shorts/Y0DToFuEnzE", featured: false
+    video: "https://www.youtube.com/shorts/Y0DToFuEnzE", featured: false, showcase: true
   },
   {
     title: "Jane Eyre: The Nanny and the Billionaire's Secret Wife",
     category: "series", format: "9:16", year: "2026", client: "Original", tools: "Generative AI",
     description: "Gothic romance. Charlotte Brontë's classic, moved to modern Yorkshire.",
     poster: "https://i.ytimg.com/vi/4iLmePyCqaY/hqdefault.jpg",
-    video: "https://www.youtube.com/shorts/4iLmePyCqaY", featured: false
+    video: "https://www.youtube.com/shorts/4iLmePyCqaY", featured: false, showcase: true
   },
   {
     title: "Pride and Prejudice: The CEO's Secret Heir",
     category: "series", format: "9:16", year: "2026", client: "Original", tools: "Generative AI",
     description: "Billionaire romance, 55 episodes. Jane Austen's classic, reimagined for today.",
     poster: "https://i.ytimg.com/vi/J49FSV-UboY/hqdefault.jpg",
-    video: "https://www.youtube.com/shorts/J49FSV-UboY", featured: false
+    video: "https://www.youtube.com/shorts/J49FSV-UboY", featured: false, showcase: true
   },
   {
     title: "David of Sassoun",

@@ -107,6 +107,7 @@
       var n = 0;
       grid.innerHTML = PROJECTS.map(function (p, i) {
         if (current !== 'all' && p.category !== current) return '';
+        if (current === 'all' && p.showcase) return '';
         n++;
         return cardHTML(p, i, true);
       }).join('');

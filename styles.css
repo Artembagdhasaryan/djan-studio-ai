@@ -33,7 +33,7 @@ img{max-width:100%;display:block}
 .btn-sm{min-height:44px;padding:0 22px;font-size:15px}
 
 /* hero */
-.hero{padding:72px 0 40px;display:flex;flex-direction:column;gap:40px}
+.hero{padding-top:72px;padding-bottom:40px;display:flex;flex-direction:column;gap:40px}
 h1.big{margin:0;font-size:clamp(48px,8vw,120px);line-height:.95;font-weight:800;letter-spacing:-.03em}
 h1.big .gray{color:#6E6C67}
 .hero-row{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;justify-content:space-between}
