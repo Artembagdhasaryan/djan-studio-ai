@@ -16,6 +16,41 @@
 */
 const PROJECTS = [
   {
+    title: "JUMP CLUB — Episode 1",
+    category: "series", format: "16:9", year: "2026", client: "JUMP CLUB, Los Angeles", tools: "Generative AI",
+    description: "Episode 1 of an AI series for JUMP CLUB, Los Angeles, California.",
+    poster: "https://drive.google.com/thumbnail?id=14cjPI3i3CLq1mVh7XMuAHbHFkgkhAiDq&sz=w1000",
+    video: "https://drive.google.com/file/d/14cjPI3i3CLq1mVh7XMuAHbHFkgkhAiDq/view", featured: false, showcase: true
+  },
+  {
+    title: "JUMP CLUB — Episode 2",
+    category: "series", format: "16:9", year: "2026", client: "JUMP CLUB, Los Angeles", tools: "Generative AI",
+    description: "Episode 2 of an AI series for JUMP CLUB, Los Angeles, California.",
+    poster: "https://drive.google.com/thumbnail?id=1PBr55ShlxTzI5jSrKnWVuM-HMRBtyWmY&sz=w1000",
+    video: "https://drive.google.com/file/d/1PBr55ShlxTzI5jSrKnWVuM-HMRBtyWmY/view", featured: false, showcase: true
+  },
+  {
+    title: "JUMP CLUB — Episode 3",
+    category: "series", format: "16:9", year: "2026", client: "JUMP CLUB, Los Angeles", tools: "Generative AI",
+    description: "Episode 3 of an AI series for JUMP CLUB, Los Angeles, California.",
+    poster: "https://drive.google.com/thumbnail?id=1cNdxGvMCW0V32plv9Ianaa6Fe-6VRYWi&sz=w1000",
+    video: "https://drive.google.com/file/d/1cNdxGvMCW0V32plv9Ianaa6Fe-6VRYWi/view", featured: false, showcase: true
+  },
+  {
+    title: "JUMP CLUB — Episode 4",
+    category: "series", format: "16:9", year: "2026", client: "JUMP CLUB, Los Angeles", tools: "Generative AI",
+    description: "Episode 4 of an AI series for JUMP CLUB, Los Angeles, California.",
+    poster: "https://drive.google.com/thumbnail?id=1upABLTuL_e45i_rURd8WrXhOx7gLokOc&sz=w1000",
+    video: "https://drive.google.com/file/d/1upABLTuL_e45i_rURd8WrXhOx7gLokOc/view", featured: false, showcase: true
+  },
+  {
+    title: "JUMP CLUB — Episode 5",
+    category: "series", format: "16:9", year: "2026", client: "JUMP CLUB, Los Angeles", tools: "Generative AI",
+    description: "Episode 5 of an AI series for JUMP CLUB, Los Angeles, California.",
+    poster: "https://drive.google.com/thumbnail?id=1rjeq1HTT_vvMVyBNJnv3rzpc_tkIz9_5&sz=w1000",
+    video: "https://drive.google.com/file/d/1rjeq1HTT_vvMVyBNJnv3rzpc_tkIz9_5/view", featured: false, showcase: true
+  },
+  {
     title: "AURA Lounge — Reel 1",
     category: "commercial", format: "9:16", year: "2026", client: "AURA hookah lounge", tools: "Generative AI",
     description: "Vertical AI reel for AURA hookah lounge.",
