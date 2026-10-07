@@ -247,3 +247,4 @@ h2{font-size:clamp(28px,2.6vw,36px);font-weight:600;letter-spacing:-.01em;line-h
 .vbox-inner{position:relative;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
 .vbox-frame{position:relative;height:min(84vh,calc((100vw - 32px) * 16 / 9));aspect-ratio:9 / 16;max-width:calc(100vw - 32px);border-radius:14px;overflow:hidden;background:#000}
 .vbox-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vbox.wide .vbox-frame{height:auto;width:min(1100px,calc(100vw - 32px),calc(84vh * 16 / 9))}

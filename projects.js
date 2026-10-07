@@ -149,11 +149,25 @@ const PROJECTS = [
     video: "https://www.youtube.com/shorts/J49FSV-UboY", featured: false, showcase: true
   },
   {
-    title: "Experimental animated short",
-    category: "animation", format: "16:9", year: "2026", client: "Original", tools: "Generative AI",
-    description: "An experimental AI animated short film.",
-    poster: "https://drive.google.com/thumbnail?id=1YaaK6i3TD5sTiO9tBLxhWWgEr3ypqkaG&sz=w1600",
+    title: "Know Your Rights at Work — Part 1",
+    category: "animation", format: "16:9", year: "2026", client: "Social campaign", tools: "Generative AI",
+    description: "Animated social video about labour rights.",
+    poster: "https://drive.google.com/thumbnail?id=1YaaK6i3TD5sTiO9tBLxhWWgEr3ypqkaG&sz=w1000",
     video: "https://drive.google.com/file/d/1YaaK6i3TD5sTiO9tBLxhWWgEr3ypqkaG/view", featured: false, showcase: true
+  },
+  {
+    title: "Know Your Rights at Work — Part 2",
+    category: "animation", format: "16:9", year: "2026", client: "Social campaign", tools: "Generative AI",
+    description: "Animated social video about labour rights.",
+    poster: "https://drive.google.com/thumbnail?id=11e6PKtWyY3GtrA2SSwyteyLh5YTJygTG&sz=w1000",
+    video: "https://drive.google.com/file/d/11e6PKtWyY3GtrA2SSwyteyLh5YTJygTG/view", featured: false, showcase: true
+  },
+  {
+    title: "Know Your Rights at Work — Part 3",
+    category: "animation", format: "16:9", year: "2026", client: "Social campaign", tools: "Generative AI",
+    description: "Animated social video about labour rights.",
+    poster: "https://drive.google.com/thumbnail?id=1HlE2-vpW0eWM6ZfB5xlvVZwvd4hYysoA&sz=w1000",
+    video: "https://drive.google.com/file/d/1HlE2-vpW0eWM6ZfB5xlvVZwvd4hYysoA/view", featured: false, showcase: true
   }
 ];
 

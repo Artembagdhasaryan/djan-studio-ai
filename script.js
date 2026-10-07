@@ -171,7 +171,7 @@
   box.querySelector('.vbox-close').addEventListener('click', close);
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && box.classList.contains('open')) close(); });
 
-  document.querySelectorAll('.short-video .yt[data-src]').forEach(function (b) {
+  document.querySelectorAll('.short-video .yt[data-src], .film-video .yt[data-src], .exp-video .yt[data-src]').forEach(function (b) {
     b.addEventListener('click', function (e) {
       e.stopImmediatePropagation();
       var f = document.createElement('iframe');
@@ -179,6 +179,8 @@
       f.title = b.getAttribute('aria-label') || 'Video';
       f.allow = 'autoplay; encrypted-media; fullscreen; picture-in-picture';
       f.allowFullscreen = true;
+      frame.style.aspectRatio = b.getAttribute('data-ratio') || '9 / 16';
+      box.classList.toggle('wide', !!b.getAttribute('data-ratio'));
       frame.innerHTML = '';
       frame.appendChild(f);
       box.classList.add('open');
