@@ -207,3 +207,13 @@ h2{font-size:clamp(28px,2.6vw,36px);font-weight:600;letter-spacing:-.01em;line-h
 .film p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
 @media (max-width:1000px){.films{grid-template-columns:1fr 1fr}}
 @media (max-width:760px){.films{grid-template-columns:1fr}}
+
+/* YouTube facade (no red YouTube button) */
+.yt{all:unset;cursor:pointer;position:absolute;inset:0;display:block;background:#111}
+.yt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s,filter .3s;filter:brightness(.85)}
+.yt:hover img{transform:scale(1.03);filter:brightness(1)}
+.yt-play{position:absolute;left:50%;top:50%;width:68px;height:68px;margin:-34px 0 0 -34px;border-radius:999px;background:var(--accent);color:var(--bg);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(0,0,0,.45);transition:transform .2s}
+.yt-play svg{margin-left:3px}
+.yt:hover .yt-play{transform:scale(1.08)}
+.yt:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.yt-frame{position:absolute;inset:0;width:100%;height:100%;border:0}
