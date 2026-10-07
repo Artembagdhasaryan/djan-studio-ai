@@ -16,6 +16,34 @@
 */
 const PROJECTS = [
   {
+    title: "AURA Lounge — Reel 1",
+    category: "commercial", format: "9:16", year: "2026", client: "AURA hookah lounge", tools: "Generative AI",
+    description: "Vertical AI reel for AURA hookah lounge.",
+    poster: "https://drive.google.com/thumbnail?id=1p0p4XneT75nU1OB9uU7OCLna-q0pKXeD&sz=w720",
+    video: "https://drive.google.com/file/d/1p0p4XneT75nU1OB9uU7OCLna-q0pKXeD/view", featured: false, showcase: true
+  },
+  {
+    title: "AURA Lounge — Reel 2",
+    category: "commercial", format: "9:16", year: "2026", client: "AURA hookah lounge", tools: "Generative AI",
+    description: "Vertical AI reel for AURA hookah lounge.",
+    poster: "https://drive.google.com/thumbnail?id=14ygP3kmNqtUqaWUqwtHDBqYJAW8iC1XK&sz=w720",
+    video: "https://drive.google.com/file/d/14ygP3kmNqtUqaWUqwtHDBqYJAW8iC1XK/view", featured: false, showcase: true
+  },
+  {
+    title: "AURA Lounge — Reel 3",
+    category: "commercial", format: "9:16", year: "2026", client: "AURA hookah lounge", tools: "Generative AI",
+    description: "Vertical AI reel for AURA hookah lounge.",
+    poster: "https://drive.google.com/thumbnail?id=1_GcuYoN6B8sCt-bWcMP6J2LUG-kN3cyf&sz=w720",
+    video: "https://drive.google.com/file/d/1_GcuYoN6B8sCt-bWcMP6J2LUG-kN3cyf/view", featured: false, showcase: true
+  },
+  {
+    title: "AURA Lounge — Reel 4",
+    category: "commercial", format: "9:16", year: "2026", client: "AURA hookah lounge", tools: "Generative AI",
+    description: "Vertical AI reel for AURA hookah lounge.",
+    poster: "https://drive.google.com/thumbnail?id=11z9Olf1I13rAIKeZHOKRjdfmfRP2GdaK&sz=w720",
+    video: "https://drive.google.com/file/d/11z9Olf1I13rAIKeZHOKRjdfmfRP2GdaK/view", featured: false, showcase: true
+  },
+  {
     title: 'My Name Is Aram',
     category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
     description: 'After William Saroyan (1940). Fresno, around 1915. An Armenian immigrant family, vineyards and an endless summer, until cousin Mourad rides up on a beautiful white horse.',
