@@ -16,6 +16,48 @@
 */
 const PROJECTS = [
   {
+    title: 'My Name Is Aram',
+    category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
+    description: 'After William Saroyan (1940). Fresno, around 1915. An Armenian immigrant family, vineyards and an endless summer, until cousin Mourad rides up on a beautiful white horse.',
+    poster: "https://i.ytimg.com/vi/n-j_G2Rj4_c/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=n-j_G2Rj4_c", featured: false, showcase: true
+  },
+  {
+    title: "My Heart's in the Highlands",
+    category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
+    description: 'After William Saroyan (1939). A poor boy, his poet father and an old Scottish actor whose bugle brings the whole street out with food. Music feeds them better than bread.',
+    poster: "https://i.ytimg.com/vi/j04sZsY042g/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=j04sZsY042g", featured: false, showcase: true
+  },
+  {
+    title: 'The Adventures of Wesley Jackson',
+    category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
+    description: 'After William Saroyan (1946). A gentle dreamer from San Francisco goes to war and searches for kindness, home and love across America and wartime London.',
+    poster: "https://i.ytimg.com/vi/LPyx6zxqP6A/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=LPyx6zxqP6A", featured: false, showcase: true
+  },
+  {
+    title: 'Rock Wagram',
+    category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
+    description: "After William Saroyan (1951). A Hollywood star with fame, money and his face on every poster, and completely alone, searches for the one thing money can't buy.",
+    poster: "https://i.ytimg.com/vi/vbGRgE9XIfc/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=vbGRgE9XIfc", featured: false, showcase: true
+  },
+  {
+    title: 'Mama I Love You',
+    category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
+    description: 'After William Saroyan (1956). Nine-year-old Twink watches her mother rise from nobody to Broadway star: a tender story of a mother, a daughter and simple words.',
+    poster: "https://i.ytimg.com/vi/DiTbi7JiSDs/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=DiTbi7JiSDs", featured: false, showcase: true
+  },
+  {
+    title: "Papa You're Crazy",
+    category: "film", format: "16:9", year: "2026", client: "William Saroyan exhibition", tools: "Generative AI",
+    description: 'After William Saroyan (1957). A beach house in Malibu, a writer father, a ten-year-old son, dragons in the clouds and a red Ford on the open road.',
+    poster: "https://i.ytimg.com/vi/b5wjJBPsB7I/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=b5wjJBPsB7I", featured: false, showcase: true
+  },
+  {
     title: "Spartacus",
     category: "film", format: "16:9", year: "2026", client: "Original", tools: "Generative AI",
     description: "Full-length AI feature film. Premiered on the rooftop of the Aram Khachaturian Concert Hall with a live orchestra.",
