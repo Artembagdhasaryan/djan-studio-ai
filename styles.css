@@ -188,3 +188,12 @@ h2{font-size:clamp(28px,2.6vw,36px);font-weight:600;letter-spacing:-.01em;line-h
   h2{font-size:26px}
   .dir.main h3,#services .dir.main h3{font-size:28px}
 }
+
+/* header actions + instagram */
+.head-actions{display:flex;align-items:center;gap:12px}
+.ig-btn{width:44px;height:44px;border-radius:999px;border:1px solid var(--line2);display:inline-flex;align-items:center;justify-content:center;color:var(--text);transition:.2s}
+.ig-btn:hover{border-color:var(--accent);color:var(--accent)}
+@media (max-width:760px){
+  .site-header .head-actions .btn{display:none}
+  .site-header .head-actions{margin-left:auto}
+}
