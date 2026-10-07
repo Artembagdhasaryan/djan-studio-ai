@@ -16,6 +16,13 @@
 */
 const PROJECTS = [
   {
+    title: "Spartacus",
+    category: "film", format: "16:9", year: "2026", client: "Original", tools: "Generative AI",
+    description: "Full-length AI feature film. Premiered on the rooftop of the Aram Khachaturian Concert Hall with a live orchestra.",
+    poster: "https://i.ytimg.com/vi/Z5Hj4WxXmdc/hqdefault.jpg",
+    video: "https://www.youtube.com/watch?v=Z5Hj4WxXmdc", featured: false, showcase: true
+  },
+  {
     title: "Romeo and Juliet: Married to My Family's Enemy",
     category: "series", format: "9:16", year: "2026", client: "Original", tools: "Generative AI",
     description: "Mafia romance. Shakespeare's classic reborn among rival Italian crime families.",
