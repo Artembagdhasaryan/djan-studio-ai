@@ -225,3 +225,8 @@ h2{font-size:clamp(28px,2.6vw,36px);font-weight:600;letter-spacing:-.01em;line-h
 .shorts.aura{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
 @media (max-width:1000px){.shorts.aura{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:760px){.shorts.aura{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.shorts.aura .short-video{max-width:none}}
+
+/* JUMP CLUB: 5 vertical episodes */
+.shorts.jump{grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}
+@media (max-width:1000px){.shorts.jump{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.shorts.jump{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.shorts.jump .short-video{max-width:none}}
