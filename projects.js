@@ -149,88 +149,11 @@ const PROJECTS = [
     video: "https://www.youtube.com/shorts/J49FSV-UboY", featured: false, showcase: true
   },
   {
-    title: "David of Sassoun",
-    category: "series",
-    format: "16:9",
-    year: "2026",
-    client: "Original",
-    tools: "[AI TOOLS]",
-    description: "An AI-generated series based on the Armenian national epic.",
-    poster: "",
-    video: "",
-    featured: true
-  },
-  {
-    title: "[Animated feature]",
-    category: "animation",
-    format: "16:9",
-    year: "2026",
-    client: "Original",
-    tools: "[AI TOOLS]",
-    description: "[Short description]",
-    poster: "",
-    video: "",
-    featured: true
-  },
-  {
-    title: "[AI commercial — brand]",
-    category: "commercial",
-    format: "16:9",
-    year: "[YEAR]",
-    client: "[CLIENT]",
-    tools: "[AI TOOLS]",
-    description: "[Short description]",
-    poster: "",
-    video: "",
-    featured: true
-  },
-  {
-    title: "[AI short film]",
-    category: "film",
-    format: "2.39:1",
-    year: "[YEAR]",
-    client: "Original",
-    tools: "[AI TOOLS]",
-    description: "[Short description]",
-    poster: "",
-    video: "",
-    featured: false
-  },
-  {
-    title: "[Artist — music video]",
-    category: "music",
-    format: "16:9",
-    year: "[YEAR]",
-    client: "[ARTIST]",
-    tools: "[AI TOOLS]",
-    description: "[Short description]",
-    poster: "",
-    video: "",
-    featured: false
-  },
-  {
-    title: "AI Studio First — reels",
-    category: "social",
-    format: "9:16",
-    year: "[YEAR]",
-    client: "Original",
-    tools: "[AI TOOLS]",
-    description: "Short-form AI content for social media.",
-    poster: "",
-    video: "https://www.instagram.com/aistudio.first/",
-    featured: false
-  },
-  {
-    title: "[AI dubbing project]",
-    category: "social",
-    format: "16:9",
-    year: "[YEAR]",
-    client: "[CLIENT]",
-    tools: "[AI TOOLS]",
-    description: "[Short description]",
-    poster: "",
-    video: "",
-    featured: false
+    title: "Experimental animated short",
+    category: "animation", format: "16:9", year: "2026", client: "Original", tools: "Generative AI",
+    description: "An experimental AI animated short film.",
+    poster: "https://drive.google.com/thumbnail?id=1YaaK6i3TD5sTiO9tBLxhWWgEr3ypqkaG&sz=w1600",
+    video: "https://drive.google.com/file/d/1YaaK6i3TD5sTiO9tBLxhWWgEr3ypqkaG/view", featured: false, showcase: true
   }
 ];
 
